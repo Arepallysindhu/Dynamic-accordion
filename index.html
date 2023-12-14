@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordion</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="accordion">
+      <div class="item">
+        <p class="number">01</p>
+        <h2>Programming Languages</h2>
+        <div class="iconOpen">
+          <ion-icon class="icon" name="add-outline"></ion-icon>
+        </div>
+        <div class="iconClose">
+          <ion-icon class="icon" name="close-outline"></ion-icon>
+        </div>
+
+        <div class="hidden-box">
+          <ul>
+            <li>C</li>
+            <li>Java</li>
+            <li>Python</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="item">
+        <p class="number">02</p>
+        <h2>Web Development</h2>
+        <div class="iconOpen">
+          <ion-icon class="icon" name="add-outline"></ion-icon>
+        </div>
+        <div class="iconClose">
+          <ion-icon class="icon" name="close-outline"></ion-icon>
+        </div>
+
+        <div class="hidden-box">
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="item">
+        <p class="number">03</p>
+        <h2>Databases</h2>
+        <div class="iconOpen">
+          <ion-icon class="icon" name="add-outline"></ion-icon>
+        </div>
+        <div class="iconClose">
+          <ion-icon class="icon" name="close-outline"></ion-icon>
+        </div>
+
+        <div class="hidden-box">
+          <ul>
+            <li>SQL</li>
+            <li>RDBMS</li>
+            <li>MYSQL</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <div id="newtask">
+            <input type="text" id="Title Description" placeholder="Text">
+            <button id="add">Add</button>
+        </div>
+        <div id="text"></div>
+    </div>
+    </div>
+
+
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
